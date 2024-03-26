@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+nav {
+    background-color: #03a3df;
+    display: flex;
+    align-items: center;
+}
+nav img {
+    margin: 1rem 4rem;
+    width: 20%;
+}
+nav ul {
+    margin-left: 30rem;
+    margin-right: 1rem;
+    padding-inline-start:0px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+nav ul li a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ecb722;
+}
+footer {
+    background-image: url("../images/footerImage.jpg");
+}
+footer img {
+    margin: 5rem 4rem 1rem;
+    width: 15%;
+}
+footer h3 {
+    margin: 1rem 4rem 0rem;
+    font-size: 1em;
+    color: white;
+}
+footer address {
+    margin: 0.5rem 4rem 1rem;
+    color: white;
+}
+footer address p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-left: 0rem;
+}
+footer address a {
+    color: white;
+    text-decoration: none;
+}
+footer address a:hover {
+    color: #ecb722;
+}
+footer p {
+    color: white;
+    margin: 2rem 1rem 0rem 4rem;
+}
+footer ul {
+    margin: 4rem 1rem 0rem 4rem;
+    padding-inline-start:0px;
+}
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+footer ul li a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+footer ul li a:hover {
+    color: #ecb722;
+}

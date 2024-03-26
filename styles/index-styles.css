@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #444444;
+}
+p, h1 {
+    color: white;
+}
+figcaption {
+    font-style: italic;
+    color: #ecb722;
+}
+.grid-parent {
+    margin: 1rem 4rem;
+}
+.grid-about {
+    display: grid;
+    grid-gap: 4rem 4rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+.grid-about-item1 {
+    grid-area: 1 /1 /1 /1;
+    background-color: #1b447f;
+}
+.grid-about-item1 article {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1b447f;
+    margin: 1rem 1rem;
+}
+.grid-about-item1 article p {
+    margin: 0 auto;
+    text-align: left;
+}
+.grid-video {
+    grid-area: 1 /2 /1 /2;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #1b447f;
+    margin: 1rem 1rem;
+}
+.grid-about-item2 {
+    grid-area: 2 /1 /2 /1;
+    background-color: #1b447f;
+}
+.grid-about-item2 article {
+    margin: 0 auto;
+    background-color: #1b447f;
+    margin: 1rem 1rem;
+}
+.grid-about-item2 article h1 {
+    text-align: center;
+}
+.grid-about-item3 {
+    text-align: center;
+    background-color: #ecb722;
+    grid-area: 2 /2 /2 /2;
+}
+
+aside address p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-left: 0rem;
+    color: #444444;
+}
+aside h3 {
+    color: #444444;
+}
+aside address a {
+    color: #444444;
+    text-decoration: none;
+}
+aside address a:hover {
+    color: white;
+}

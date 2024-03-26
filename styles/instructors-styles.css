@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #444444;
+}
+.top-grid-parent {
+    margin: 1rem 4rem;
+}
+p, h1, h2, h3 {
+    color: white;
+}
+.top-grid {
+    display: grid;
+    grid-gap: 4rem 4rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+.instructor-grid {
+    grid-area: 1 /1 /1 /3;
+    background-color: #1b447f;
+}
+.instructor-grid section {
+    margin: 1rem 1rem;
+}
+.instructor-grid h1 {
+    text-align: center;
+}
+.aside-grid {
+    grid-area: 1 /3 /1 /3;
+    background-color: #1b447f;
+}
+.aside-grid aside {
+    margin: 1rem 1rem;
+}
+.aside-grid h3 {
+    text-align: center;
+}
+
+.bio-header header {
+    background-color: #1b447f;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+.instructors-grid-parent {
+    margin: 1rem 4rem;
+}
+.instructors-grid {
+    display: grid;
+    grid-row-gap: 4rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+.derek-grid {
+    grid-area: 1 /1 /1 /1;
+    background-color: #1b447f;
+}
+.derek-grid article {
+    margin: 2rem 2rem;
+}
+.derek-inline {
+    display: flex;
+}
+.derek-inline p {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.derek-grid article h2 {
+    text-align: center;
+    color: #ecb722
+}
+.amy-grid {
+    grid-area: 2 /1 /2 /1;
+    background-color: #1b447f;
+}
+.amy-grid article {
+    margin: 2rem 2rem;
+}
+.amy-grid article h2 {
+    text-align: center;
+    color: #ecb722
+}
+.amy-inline {
+    display: flex;
+}
+.amy-inline p {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.nathan-grid {
+    grid-area: 3 /1 /3 /1;
+    background-color: #1b447f;
+}
+.nathan-grid article {
+    margin: 2rem 2rem;
+}
+.nathan-grid article h2 {
+    text-align: center;
+    color: #ecb722
+}
+.nathan-inline {
+    display: flex;
+}
+.nathan-inline p {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
